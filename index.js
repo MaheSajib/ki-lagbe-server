@@ -25,7 +25,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello DataBase Working!')
 })
 
 client.connect(err => {
